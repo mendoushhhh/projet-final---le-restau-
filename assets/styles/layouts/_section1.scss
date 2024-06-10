@@ -1,0 +1,52 @@
+.section1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: rgb(241, 240, 240);
+    .découverte-store{
+      padding: 40px;
+      
+        div {
+            border: 1px dashed grey;
+            padding: 30px 15px;
+            h2 {
+                font-family: $font1;
+                color: $color1;
+                font-weight: 100;
+                font-size: 2rem;
+            }
+            h3 {
+                font-weight: 900;
+                text-transform: uppercase;
+                font-family: $font2;
+                    margin-top: -10px;
+
+            }
+            .fourchette{
+                height: 30px;
+                margin: 26px ;
+
+            }
+            img{
+                font-weight: 100;
+                margin: 30px;
+            }
+            img:nth-of-type(2) {
+                height: 70px;
+                border-radius: 150px;
+                margin-bottom: 8px;
+                margin: 30px;
+              }
+            p {
+                font-family: $font3;
+            }
+            h5 {
+                font-size: 0.7rem;
+                color: rgb(209, 205, 205);
+            }
+        }
+
+    }
+    .pic-intro {
+        background: url(/assets/img/store-01.jpg) center center / cover;
+    }
+}

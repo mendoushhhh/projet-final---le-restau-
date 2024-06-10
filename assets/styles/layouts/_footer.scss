@@ -1,0 +1,66 @@
+footer {
+   
+    background: url(/assets/img/bg-footer.jpg) center center/cover;
+    .footer-content {
+        max-width: 1000px;
+        margin: 0 auto;
+     display: grid;
+    grid-template-columns: 50% 50%;
+   
+  .first-part {
+    
+    padding: 50px;
+    h5{
+        text-align: left;
+        font-family: $font1;
+        font-size: 2.5rem;
+        font-weight: 100;
+        color: $color1;
+
+    }
+    p {
+        color: whitesmoke;
+        font-family: $font3;
+        text-align: left;
+        line-height: 30px;
+        font-family: $font3;
+        
+    }
+  }
+  .second-part {
+    padding: 80px 30px;
+    text-align: left;
+    p {
+        color: whitesmoke;
+        font-family: $font2;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+    input {
+        background: none;
+        padding: 10px;
+        font-size: 1.2rem;
+        border:  1px solid rgba(166, 114, 69, 0.151);
+        margin-top: 15px;
+    }
+    div {
+        margin: 30px 0;
+        display: flex;
+        justify-content: space-between;
+        color: none;
+        font-size: 0.8rem;
+    width: 200px;
+    cursor: pointer;
+    color: rgb(111, 111, 111);
+    > * {
+        color: grey;
+    }
+        i {
+            list-style: none;
+        }
+    }
+   
+  }
+}
+  }
+    

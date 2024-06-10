@@ -1,0 +1,127 @@
+.section4 {
+
+    background: rgb(49, 49, 49);
+    margin-bottom: 150px;
+    margin: -60px auto;
+    padding: 100px 0;
+
+    .largeur {
+        width: 85%;
+        max-width: 1200px;
+        margin: 0 auto;
+
+   
+p {
+        font-family: $font1;
+        color: $color1;
+        font-size: 2.5rem;
+
+
+    }
+    img {
+        margin: 30px 0;
+    }
+    h4 {
+        color: whitesmoke;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-family: $font2;
+        letter-spacing: 3px;
+        margin-top: -15px;
+    }
+    img {
+        text-align: center;
+    }
+  
+    .event {
+            display: grid;
+    grid-template-columns: 50% 50%;
+    
+   .gauche {
+    .parti1 {
+        margin: 15px 0;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        .img {
+            background:url(/assets/img/event-01.jpg) center/cover;
+            p {
+                background: #322c2c;
+                margin: 50px 70px;
+                color: whitesmoke;
+                font-family: $font3;
+                padding:20px 20px;
+            }
+
+        }
+        .background-color {
+            
+            background: whitesmoke;
+            padding: 20px;
+            p {
+                font-family: $font3;
+                color: rgb(43, 43, 43);
+                font-size: 1.5rem;
+                text-transform: capitalize;
+                text-align: left;
+            }
+            h5 {
+                margin: 15px 0;
+                text-align: left;
+                color: rgb(181, 181, 181);
+                font-family: $font3;
+                text-transform: capitalize;
+                font-size: 1rem;
+                font-weight: 100;
+            }
+            h6 {
+                text-align: left;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }
+            }
+        }
+       
+        }
+
+        .droite {
+            background: url(/assets/img/event-03.jpg) center/cover
+            ;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            
+             margin: 13px 0px 20px 13px;
+             p {
+                background: black;
+                color: whitesmoke;
+                font-family: $font3;
+                padding: 30px;
+             }
+    
+            div {
+            
+                background: whitesmoke;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin: 25px 0;
+   
+
+
+
+            }
+        }
+        
+    } 
+}
+   }
+    
+
+
+
+

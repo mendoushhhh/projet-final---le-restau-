@@ -1,0 +1,84 @@
+header {
+    background: url(/assets/img/bg-slider-06.jpg) center/cover;
+    height: 100vh;
+    color: $white;
+    padding:  0 50px;
+    nav {
+        display: grid;
+        align-items: center;
+        max-width: 1300px;
+        margin: 0 auto;
+        height: 12vh;
+        top: 0;
+        grid-template-columns: 10% 82% 10%;
+        
+        h3 {
+            font-family: $font1;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            text-align: left;
+
+        }
+        .liste-resto {
+            display: flex;
+            align-items: center;
+            font-family: $font3;
+            font-size: 0.7rem;
+            color: $white;
+            text-transform: uppercase;
+            padding: 0 30px;
+            justify-content: space-around;
+            > a {
+                color: white;
+            }
+
+            li {
+               cursor: pointer;
+            }
+        }
+        
+    }
+
+    .header-text {
+            display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+        margin: 150px auto;
+        h2 {
+            font-family: $font1;
+            font-size: 3rem;
+            color: $color1;
+            letter-spacing: 1px;
+            font-weight: 100;
+           
+        }
+        h1 {
+            text-transform: uppercase;
+            letter-spacing: 9px;
+            font-size: 3.5rem;
+            font-family: $font2;
+            position: relative;
+            bottom: 30px;
+        
+        }
+        img {
+            font-size: 0.8rem;
+            margin-bottom: 30px;
+        }
+        p {
+            
+            letter-spacing: 6px;
+            font-weight: 100;
+            font-size: 0.75rem;
+
+        }
+    }
+
+
+
+
+    
+
+
+    
+}
